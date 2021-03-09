@@ -1,0 +1,40 @@
+# Copyright (C) 2021 Koji Kuno
+# This file is distributed under the same license as the Easy Access Reusable Blocks plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Easy Access Reusable Blocks 1.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/easy-access-reusable-blocks\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2021-03-09T01:18:23+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.3.0\n"
+"X-Domain: easy-access-reusable-blocks\n"
+
+#. Plugin Name of the plugin
+msgid "Easy Access Reusable Blocks"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://olein-design.com/easy-access-reusable-blocks"
+msgstr ""
+
+#. Description of the plugin
+msgid "A brief description of the Plugin."
+msgstr ""
+
+#. Author of the plugin
+msgid "Koji Kuno"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://olein-design.com"
+msgstr ""
+
+#: easy-access-reusable-blocks.php:37
+#: easy-access-reusable-blocks.php:38
+msgid "Reusable Blocks"
+msgstr ""
