@@ -5,38 +5,42 @@ msgstr ""
 "Project-Id-Version: Easy Access Reusable Blocks 1.0\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/easy-access-"
 "reusable-blocks\n"
+"POT-Creation-Date: 2021-03-09T02:27:49+00:00\n"
+"PO-Revision-Date: 2021-03-09 11:43+0900\n"
+"Last-Translator: \n"
 "Language-Team: \n"
+"Language: ja_JP\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2021-03-09T00:57:16+00:00\n"
-"PO-Revision-Date: 2021-03-09 10:18+0900\n"
 "X-Generator: Poedit 2.4.2\n"
 "X-Domain: easy-access-reusable-blocks\n"
-"Last-Translator: \n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"Language: ja_JP\n"
 
 #. Plugin Name of the plugin
 msgid "Easy Access Reusable Blocks"
 msgstr "Easy Access Reusable Blocks"
 
 #. Plugin URI of the plugin
-msgid "http://URI_Of_Page_Describing_Plugin_and_Updates"
-msgstr ""
+msgid "https://github.com/Olein-jp/easy-access-reusable-blocks"
+msgstr "https://github.com/Olein-jp/easy-access-reusable-blocks"
 
 #. Description of the plugin
-msgid "A brief description of the Plugin."
+msgid ""
+"You can access the Reusable Block(s) List screen with a single click from "
+"the admin."
 msgstr ""
+"管理画面からワンクリックで再利用ブロック一覧画面へアクセスできるようになり"
+"ます。"
 
 #. Author of the plugin
-msgid "Olein-jp"
-msgstr ""
+msgid "Koji Kuno"
+msgstr "Koji Kuno"
 
 #. Author URI of the plugin
 msgid "https://olein-design.com"
-msgstr ""
+msgstr "https://olein-design.com"
 
 #: easy-access-reusable-blocks.php:37 easy-access-reusable-blocks.php:38
 msgid "Reusable Blocks"
-msgstr ""
+msgstr "再利用ブロック"

@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name: Easy Access Reusable Blocks
- * Plugin URI: https://olein-design.com/easy-access-reusable-blocks
+ * Plugin URI: https://github.com/Olein-jp/easy-access-reusable-blocks
  * Description: You can access the Reusable Block(s) List screen with a single click from the admin.
  * Version: 1.0
  * Tested up to: 5.6

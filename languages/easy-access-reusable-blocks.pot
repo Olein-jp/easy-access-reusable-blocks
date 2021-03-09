@@ -4,12 +4,12 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Easy Access Reusable Blocks 1.0\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/easy-access-reusable-blocks\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Last-Translator: Koji Kuno <info@olein-design.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2021-03-09T01:18:23+00:00\n"
+"POT-Creation-Date: 2021-03-09T02:27:49+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.3.0\n"
 "X-Domain: easy-access-reusable-blocks\n"
@@ -19,11 +19,11 @@ msgid "Easy Access Reusable Blocks"
 msgstr ""
 
 #. Plugin URI of the plugin
-msgid "https://olein-design.com/easy-access-reusable-blocks"
+msgid "https://github.com/Olein-jp/easy-access-reusable-blocks"
 msgstr ""
 
 #. Description of the plugin
-msgid "A brief description of the Plugin."
+msgid "You can access the Reusable Block(s) List screen with a single click from the admin."
 msgstr ""
 
 #. Author of the plugin
