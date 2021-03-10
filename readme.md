@@ -5,7 +5,7 @@ Tags:
 Requires at least: 5.6
 Tested up to: 5.6.2
 Requires PHP: 7.3.5
-Stable tag: 1.0.3
+Stable tag: 1.0.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 

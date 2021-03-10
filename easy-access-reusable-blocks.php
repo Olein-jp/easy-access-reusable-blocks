@@ -3,11 +3,11 @@
  * Plugin Name: Easy Access Reusable Blocks
  * Plugin URI: https://github.com/Olein-jp/easy-access-reusable-blocks
  * Description: You can access the Reusable Block(s) List screen with a single click from the admin.
- * Version: 1.0.3
+ * Version: 1.0.4
  * Tested up to: 5.6
  * Requires at least: 5.6
  * Requires PHP: 5.6
- * Author: Koji Kuno
+ * Author: olein
  * Author URI: https://olein-design.com
  * License: GPL2 or later
  * License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -47,8 +47,6 @@ add_action( 'admin_menu', 'earb_register_menu_page' );
 
 /**
  * override anchor links
- * @todo change hook
- * @link https://developer.wordpress.org/reference/functions/wp_add_inline_script/
  */
 function earb_menu_links() {
 	?>
