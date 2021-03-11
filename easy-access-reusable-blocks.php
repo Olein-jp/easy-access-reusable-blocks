@@ -36,29 +36,11 @@ function earb_register_menu_page() {
 	add_menu_page(
 		__( 'Reusable Blocks', 'easy-access-reusable-blocks' ),
 		__( 'Reusable Blocks', 'easy-access-reusable-blocks' ),
-		'manage_options',
-		'earb',
+		'edit_others_posts',
+		'edit.php?post_type=wp_block',
 		'',
-		'',
+		'dashicons-block-default',
 		21
 	);
 }
 add_action( 'admin_menu', 'earb_register_menu_page' );
-
-/**
- * override anchor links
- */
-function earb_menu_links() {
-	?>
-	<script>
-		jQuery( function($) {
-			var menu_slug = 'earb';
-			$( 'a.toplevel_page_' + menu_slug ).prop({
-				href: "<?php echo esc_url( home_url( '/wp-admin/edit.php?post_type=wp_block' ) ); ?>"
-			});
-		});
-
-	</script>
-	<?php
-}
-add_action( 'admin_print_footer_scripts', 'earb_menu_links' );
