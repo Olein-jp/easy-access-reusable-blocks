@@ -39,7 +39,7 @@ function earb_register_menu_page() {
 		'edit_others_posts',
 		'edit.php?post_type=wp_block',
 		'',
-		'',
+		'dashicons-block-default',
 		21
 	);
 }
