@@ -36,7 +36,7 @@ function earb_register_menu_page() {
 	add_menu_page(
 		__( 'Reusable Blocks', 'easy-access-reusable-blocks' ),
 		__( 'Reusable Blocks', 'easy-access-reusable-blocks' ),
-		'manage_options',
+		'edit_others_posts',
 		'earb',
 		'',
 		'',
