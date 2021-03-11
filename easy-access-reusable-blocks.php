@@ -39,7 +39,7 @@ function earb_register_menu_page() {
 		'manage_options',
 		'earb',
 		'',
-		'',
+		'dashicons-block-default',
 		21
 	);
 }
