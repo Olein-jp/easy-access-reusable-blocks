@@ -36,3 +36,6 @@ You can access the Reusable Block(s) List screen with a single click from the ad
 
 = 1.0.4 =
 * Fixed bugs
+
+= 1.0.4 =
+* Fixed for smart code by ixkaito
