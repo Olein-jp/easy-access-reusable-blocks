@@ -44,3 +44,48 @@ function earb_register_menu_page() {
 	);
 }
 add_action( 'admin_menu', 'earb_register_menu_page' );
+
+/**
+ * Add column for reusable blocks index page
+ *
+ * @param $columns
+ *
+ * @return array
+ */
+function earb_add_new_columns( $columns ) {
+	if ( get_post_type() == 'wp_block' ) {
+		$new_columns = array(
+			'shortcode' => esc_html__( 'Shortcode', 'easy-access-reusable-blocks' ),
+		);
+		return array_merge( $columns, $new_columns );
+	}
+}
+add_filter( 'manage_posts_columns', 'earb_add_new_columns');
+
+/**
+ * add shortcode for column
+ *
+ * @param $column_name
+ *
+ * @param $post_id
+ */
+function earb_add_new_column( $column_name, $post_id ) {
+	if ( 'shortcode' === $column_name ) {
+		echo '<span>[earb post_id="' . esc_html( $post_id ) . '"]</span>';
+	}
+}
+add_filter( 'manage_posts_custom_column', 'earb_add_new_column', 5, 2 );
+
+/**
+ * @param $atts
+ */
+function earb_shortcode( $atts ) {
+	$atts = shortcode_atts(
+		array(
+			'post_id' => null,
+		),
+		$atts
+	);
+	echo get_post( $atts['post_id'] )->post_content;
+}
+add_shortcode( 'earb', 'earb_shortcode' );
