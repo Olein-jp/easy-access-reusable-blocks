@@ -53,14 +53,12 @@ add_action( 'admin_menu', 'earb_register_menu_page' );
  * @return array
  */
 function earb_add_new_columns( $columns ) {
-	if ( get_post_type() == 'wp_block' ) {
-		$new_columns = array(
-			'shortcode' => esc_html__( 'Shortcode', 'easy-access-reusable-blocks' ),
-		);
-		return array_merge( $columns, $new_columns );
-	}
+	$new_columns = array(
+		'shortcode' => esc_html__( 'Shortcode', 'easy-access-reusable-blocks' ),
+	);
+	return array_merge( $columns, $new_columns );
 }
-add_filter( 'manage_posts_columns', 'earb_add_new_columns');
+add_filter( 'manage_wp_block_posts_columns', 'earb_add_new_columns');
 
 /**
  * add shortcode for column
