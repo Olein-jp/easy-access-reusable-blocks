@@ -72,7 +72,7 @@ function earb_add_new_column( $column_name, $post_id ) {
 		echo '<span>[earb post_id="' . esc_html( $post_id ) . '"]</span>';
 	}
 }
-add_filter( 'manage_posts_custom_column', 'earb_add_new_column', 5, 2 );
+add_filter( 'manage_wp_block_posts_custom_column', 'earb_add_new_column', 5, 2 );
 
 /**
  * @param $atts
