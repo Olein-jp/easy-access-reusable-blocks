@@ -1,10 +1,10 @@
 === Easy Access Reusable Blocks ===
-Contributors: olein, ixkaito
+Contributors: olein, ixkaito, imawc, inc2734
 Donate link: https://www.amazon.jp/hz/wishlist/ls/WH93ZBVDA08I?ref_=wl_share
 Requires at least: 5.6
-Tested up to: 5.6.2
+Tested up to: 5.7
 Requires PHP: 7.3.5
-Stable tag: 1.0.5
+Stable tag: 1.0.6
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -39,3 +39,6 @@ You can access the Reusable Block(s) List screen with a single click from the ad
 
 = 1.0.5 =
 * Fixed for smart code by ixkaito
+
+= 1.0.6 =
+* Available shortcode.

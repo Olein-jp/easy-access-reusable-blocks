@@ -2,9 +2,9 @@
 /**
  * Plugin Name: Easy Access Reusable Blocks
  * Plugin URI: https://github.com/Olein-jp/easy-access-reusable-blocks
- * Description: You can access the Reusable Block(s) List screen with a single click from the admin.
- * Version: 1.0.5
- * Tested up to: 5.6
+ * Description: You can access the Reusable Block(s) List screen with a single click from the admin and easy to insert with shortcodes.
+ * Version: 1.0.6
+ * Tested up to: 5.7
  * Requires at least: 5.6
  * Requires PHP: 5.6
  * Author: olein
@@ -48,7 +48,7 @@ add_action( 'admin_menu', 'earb_register_menu_page' );
 /**
  * Add column for reusable blocks index page
  *
- * @param $columns
+ * @param array $columns admin columns array.
  *
  * @return array
  */
@@ -58,24 +58,27 @@ function earb_add_new_columns( $columns ) {
 	);
 	return array_merge( $columns, $new_columns );
 }
-add_filter( 'manage_wp_block_posts_columns', 'earb_add_new_columns');
+add_filter( 'manage_wp_block_posts_columns', 'earb_add_new_columns' );
 
 /**
  * add shortcode for column
  *
- * @param $column_name
- *
- * @param $post_id
+ * @param string $column_name The name of the column to display.
+ * @param int    $post_id The current post ID.
  */
 function earb_add_new_column( $column_name, $post_id ) {
 	if ( 'shortcode' === $column_name ) {
-		echo '<span>[earb post_id="' . esc_html( $post_id ) . '"]</span>';
+		echo '<span class="earb-short-code">[earb post_id="' . esc_html( $post_id ) . '"]</span>';
 	}
 }
 add_filter( 'manage_posts_custom_column', 'earb_add_new_column', 5, 2 );
 
 /**
- * @param $atts
+ * Added shortcode.
+ *
+ * @param array $atts User defined attributes in shortcode tag.
+ *
+ * @return string
  */
 function earb_shortcode( $atts ) {
 	$atts = shortcode_atts(
@@ -84,6 +87,12 @@ function earb_shortcode( $atts ) {
 		),
 		$atts
 	);
-	echo get_post( $atts['post_id'] )->post_content;
+
+	if ( $atts['post_id'] ) {
+		$reusable_content = get_post( $atts['post_id'] );
+		if ( is_object( $reusable_content ) && property_exists( $reusable_content, 'post_content' ) && 'wp_block' === $reusable_content->post_type ) {
+			return $reusable_content->post_content;
+		}
+	}
 }
 add_shortcode( 'earb', 'earb_shortcode' );
