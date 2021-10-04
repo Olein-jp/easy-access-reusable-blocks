@@ -3,11 +3,11 @@
  * Plugin Name: Easy Access Reusable Blocks
  * Plugin URI: https://github.com/Olein-jp/easy-access-reusable-blocks
  * Description: You can access the Reusable Block(s) List screen with a single click from the admin and easy to insert with shortcodes.
- * Version: 1.0.6
+ * Version: 1.0.7
  * Tested up to: 5.7
  * Requires at least: 5.6
  * Requires PHP: 5.6
- * Author: olein
+ * Author: Koji Kuno
  * Author URI: https://olein-design.com
  * License: GPL2 or later
  * License URI: https://www.gnu.org/licenses/gpl-2.0.html
