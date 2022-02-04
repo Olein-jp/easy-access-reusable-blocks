@@ -2,9 +2,9 @@
 Contributors: olein, ixkaito, imawc, inc2734
 Donate link: https://www.amazon.jp/hz/wishlist/ls/WH93ZBVDA08I?ref_=wl_share
 Requires at least: 5.6
-Tested up to: 5.8
+Tested up to: 5.9
 Requires PHP: 7.3.5
-Stable tag: 1.0.7
+Stable tag: 1.0.8
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -22,27 +22,30 @@ You can access the Reusable Block(s) List screen with a single click from the ad
 
 == Changelog ==
 
-= 1.0.0 =
-* Release test
+= 1.0.8
+* Checked working on WordPress 5.9
 
-= 1.0.1 =
-* Release
-
-= 1.0.2 =
-* Add readme.md
-
-= 1.0.3 =
-* Fixed bugs
-
-= 1.0.4 =
-* Fixed bugs
-
-= 1.0.5 =
-* Fixed for smart code by ixkaito
+= 1.0.7 =
+* Changed tested up WordPress version
+* Changed Author name for real one
 
 = 1.0.6 =
 * Available shortcode.
 
-= 1.0.6 =
-* Changed tested up WordPress version
-* Changed Author name for real one
+= 1.0.5 =
+* Fixed for smart code by ixkaito
+
+= 1.0.4 =
+* Fixed bugs
+
+= 1.0.3 =
+* Fixed bugs
+
+= 1.0.2 =
+* Add readme.md
+
+= 1.0.1 =
+* Release
+
+= 1.0.0 =
+* Release test
