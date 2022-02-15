@@ -4,7 +4,7 @@ Donate link: https://www.amazon.jp/hz/wishlist/ls/WH93ZBVDA08I?ref_=wl_share
 Requires at least: 5.6
 Tested up to: 5.9
 Requires PHP: 7.3.5
-Stable tag: 1.0.13
+Stable tag: 1.0.14
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -22,6 +22,7 @@ You can access the Reusable Block(s) List screen with a single click from the ad
 
 == Changelog ==
 
+= 1.0.14
 = 1.0.13
 = 1.0.12
 = 1.0.11
