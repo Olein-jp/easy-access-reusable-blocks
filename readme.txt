@@ -4,7 +4,7 @@ Donate link: https://www.amazon.jp/hz/wishlist/ls/WH93ZBVDA08I?ref_=wl_share
 Requires at least: 5.6
 Tested up to: 5.9
 Requires PHP: 7.3.5
-Stable tag: 1.0.8
+Stable tag: 1.0.12
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -21,6 +21,14 @@ You can access the Reusable Block(s) List screen with a single click from the ad
 1. You can see the menu of 'Reusable Blocks' on sidebar in your admin.
 
 == Changelog ==
+
+= 1.0.12
+= 1.0.11
+= 1.0.10
+* Test Deploy to WordPress.org on GitHub Actions
+
+= 1.0.9
+* Checked working on WordPress 5.9
 
 = 1.0.8
 * Checked working on WordPress 5.9
